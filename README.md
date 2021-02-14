@@ -9,7 +9,9 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 
 ## Describe your topic/interest in about 150-200 words
 
-{Add your stuff here}
+The topic chosen is MLB predictions I am an avid fan of the MLB so I believed it would be extremely interesting to dive into the statistics about each game and the chances of each team winning their supposed game.  I also find it extremely interesting how the starting pitcher for each game can change the prediction outcome allowing a worse team to have a higher chance of winning than a team that by all other means should dominate them. One of the main things I wish to accomplish with this analysis is to see how accurate the predictions in the dataset are and compare them to the real world game that took place. Furthermore, I would love to see how the team's Elo ratings increased or decreased to teams trading players or winning games that they were predicted to lose. 
+
+I believe I can create a user-facing dashboard with this specific dashboard. I have multiple options on how to showcase the data from games played and a final score of the game in relation to the prediction made.  I will explore every option while deciphering the dataset which should be a good time as I have very keen on learning the majority of what the dataset can show me.
 
 ## Describe your dataset in about 150-200 words
 
