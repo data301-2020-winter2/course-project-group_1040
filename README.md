@@ -20,7 +20,7 @@ The data used was from that MLB and the dataset was created by Jay Boice who was
 ## Team Members
 
 - Person 1: Im Matt and I am usually very tired
-- Person 2: one sentence about you!
+- Person 2: I am Levi and also quite tired
 - Person 3: one sentence about you!
 
 ## References
