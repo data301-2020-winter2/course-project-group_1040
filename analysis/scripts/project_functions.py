@@ -1,3 +1,6 @@
+import pandas as pd
+import numpy as np
+
 def load_and_process(address):
     
     #Method Chain #1: Load Data, clean out missing 
