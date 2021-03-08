@@ -14,6 +14,8 @@ def load_and_process(address):
                          "elo_prob2" : "away_prob", 
                          "elo1_post" : "home_post", 
                          "elo2_post" : "away_post",
+                         "pitcher1_adj" : "home_pitcher_rating",
+                         "pitcher2_adj" : "away_pitcher_rating",
                          "score1" : "home_score",
                          "score2" : "away_score"}) # Creates a more readable dataframe
         .round(3) #Round all values to three decimals
@@ -32,9 +34,7 @@ def load_and_process(address):
                   "pitcher1", 
                   "pitcher2",
                   "pitcher1_rgs", 
-                  "pitcher2_rgs", 
-                  "pitcher1_adj", 
-                  "pitcher2_adj"], axis="columns") #We will only be worrying about elo ratings for this project
+                  "pitcher2_rgs", ], axis="columns") #We will only be worrying about elo ratings for this project, and adjusted pitcher ratings
     )
     
     #Returned DataFrame
