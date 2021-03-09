@@ -39,3 +39,16 @@ def load_and_process(address):
     
     #Returned DataFrame
     return df2
+
+
+def variables():
+    teams = {"current_teams" : ["LAD", "TBD", "ATL", "HOU", "SDP", "NYY", "OAK", "FLA", "CHC", "MIL", "CHW", "CIN", "CLE", "STL", "TOR", "MIN", "KCR", "SFG", "SEA", "ARI", "TEX", "WSN", "PHI", "BAL", "NYM", "PIT", "ANA", "BOS", "DET", "COL"],
+"national_league" : ["CHC", "WSN", "STL", "SFG", "ATL", "PHI","CIN","PIT", "SDP", "NYM", "MIA", "ARI", "MIL", "COL", "LAD"],
+"american_league" : ["NYY", "HOU", "BOS", "TOR", "CLE", "ANA", "CHW", "BAL", "DET", "MIN", "TBD", "OAK", "SEA", "KCR", "TEX"],
+"al_east" : ["BAL", "BOS", "NYY", "TBD", "TOR"],
+"al_central" : ["CHW", "CLE", "DET", "KCR", "MIN"],
+"al_west" : ["HOU", "ANA", "OAK", "SEA", "TEX"],
+"nl_east" : ["ATL", "MIA", "NYM", "PHI", "WSN"],
+"nl_central" : ["CHC", "CIN", "MIL", "PIT", "STL"],
+"nl_west" : ["ARI", "COL", "LAD", "SDP", "SFG"]}
+    return teams
