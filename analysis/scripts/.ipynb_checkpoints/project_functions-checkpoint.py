@@ -19,9 +19,7 @@ def load_and_process(address):
                          "score1" : "home_score",
                          "score2" : "away_score"}) # Creates a more readable dataframe
         .round(3) #Round all values to three decimals
-       
-        
-         .fillna("s")  #The only NaN values are if they are playoffs so we can change them to s for regular season
+        .fillna("s")  #The only NaN values are if they are playoffs so we can change them to s for regular season
     )
     
     
