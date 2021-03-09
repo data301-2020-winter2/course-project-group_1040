@@ -48,7 +48,7 @@ def variables():
 "al_east" : ["BAL", "BOS", "NYY", "TBD", "TOR"],
 "al_central" : ["CHW", "CLE", "DET", "KCR", "MIN"],
 "al_west" : ["HOU", "ANA", "OAK", "SEA", "TEX"],
-"nl_east" : ["ATL", "MIA", "NYM", "PHI", "WSN"],
+"nl_east" : ["ATL", "FLA", "NYM", "PHI", "WSN"],
 "nl_central" : ["CHC", "CIN", "MIL", "PIT", "STL"],
 "nl_west" : ["ARI", "COL", "LAD", "SDP", "SFG"]}
     return teams
