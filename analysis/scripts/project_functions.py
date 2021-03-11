@@ -40,6 +40,11 @@ def load_and_process(address):
     #Returned DataFrame
     return df2
 
+def matt_EDA (address):
+    df1 = pd.DataFrame({
+        ""
+        
+    })
 
 def variables():
     teams = {"current_teams" : ["LAD", "TBD", "ATL", "HOU", "SDP", "NYY", "OAK", "FLA", "CHC", "MIL", "CHW", "CIN", "CLE", "STL", "TOR", "MIN", "KCR", "SFG", "SEA", "ARI", "TEX", "WSN", "PHI", "BAL", "NYM", "PIT", "ANA", "BOS", "DET", "COL"],
