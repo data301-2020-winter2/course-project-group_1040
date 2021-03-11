@@ -14,6 +14,8 @@ def load_and_process(address):
                          "elo_prob2" : "away_prob", 
                          "elo1_post" : "home_post", 
                          "elo2_post" : "away_post",
+                         "pitcher1" : "home_pitcher",
+                         "pitcher2" : "away_pitcher",
                          "pitcher1_adj" : "home_pitcher_rating",
                          "pitcher2_adj" : "away_pitcher_rating",
                          "score1" : "home_score",
@@ -33,8 +35,6 @@ def load_and_process(address):
                   "rating_prob2", 
                   "rating1_post", 
                   "rating2_post", 
-                  "pitcher1", 
-                  "pitcher2",
                   "pitcher1_rgs", 
                   "pitcher2_rgs", ], axis="columns") #We will only be worrying about elo ratings for this project, and adjusted pitcher ratings
     )
