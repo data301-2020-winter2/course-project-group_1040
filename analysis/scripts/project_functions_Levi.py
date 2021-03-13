@@ -18,8 +18,8 @@ def load_and_process(address):
                          "pitcher2" : "away_pitcher",
                          "pitcher1_adj" : "home_pitcher_rating",
                          "pitcher2_adj" : "away_pitcher_rating",
-                         "pitcher1_rgs", 
-                         "pitcher2_rgs" : away_pitcher_rating,
+                         "pitcher1_rgs" : "home_pitcher_rgs", 
+                         "pitcher2_rgs" : "away_pitcher_rgs",
                          "score1" : "home_score",
                          "score2" : "away_score"}) # Creates a more readable dataframe
         .round(3) #Round all values to three decimals
