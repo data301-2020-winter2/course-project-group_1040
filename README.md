@@ -23,6 +23,9 @@ The data used was from that MLB and the dataset was created by Jay Boice who was
 - Person 2: I am Levi and also quite tired
 - Person 3: one sentence about you!
 
+## Tableau Online Lab7 Links
+- Matt: https://us-west-2b.online.tableau.com/#/site/data301/workbooks/345397/views
+
 ## References
 
 Dataset: https://projects.fivethirtyeight.com/2018-mlb-predictions/
